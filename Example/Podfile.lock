@@ -1,0 +1,16 @@
+PODS:
+  - MyPrivatePod (1)
+
+DEPENDENCIES:
+  - MyPrivatePod (from `../`)
+
+EXTERNAL SOURCES:
+  MyPrivatePod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MyPrivatePod: a25322fd7cad9ca060eec4b18c9b0d54e3d8f56f
+
+PODFILE CHECKSUM: 758143b18ffee8b9f7a4c8c598179cee2d2e2df4
+
+COCOAPODS: 1.15.2

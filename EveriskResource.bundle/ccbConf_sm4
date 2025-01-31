@@ -1,0 +1,312 @@
+{
+
+"infrastructure": {
+  "upload_policy": {
+    "mapping": [
+      {
+        "name": "常规信息",
+        "list": [
+          "start_info",
+          "apkinfo",
+          "devinfo",
+          "location",
+          "userdata",
+          "env_check",
+          "aograph_upload",
+          "multi_message",
+          "process",
+          "self_process",
+          "service"
+        ],
+        "txcode": "PushAppThreatLevelInfo_5_sm4"
+      },
+      {
+        "name": "崩溃信息",
+        "list": [
+          "crash"
+        ],
+        "txcode": "PushAppCrashInfo_sm4"
+      },
+      {
+        "name": "高危信息",
+        "list": [
+          "inject",
+          "debug",
+          "devices_reuse",
+          "resign"
+        ],
+        "txcode": "PushAppThreatLevelInfo_1_sm4"
+      },
+      {
+        "name": "中危信息",
+        "list": [
+          "emulator",
+          "game_plugin",
+          "screen_sharing"
+        ],
+        "txcode": "PushAppThreatLevelInfo_2_sm4"
+      },
+      {
+        "name": "低危信息",
+        "list": [
+          "root",
+          "host_fraud",
+          "https",
+          "on_the_phone",
+          "vpnproxy",
+          "httpproxy"
+        ],
+        "txcode": "PushAppThreatLevelInfo_3_sm4"
+      },
+      {
+        "name": "其他信息",
+        "list": [
+          "speed"
+        ],
+        "txcode": "PushAppThreatLevelInfo_4_sm4"
+      },
+      {
+        "name": "配置信息",
+        "list": [
+          "download"
+        ],
+        "txcode": "GetAppConf_sm4"
+      },
+      {
+        "name": "客户端获取轻量配置信息",
+        "list": [
+          "keepalive"
+        ],
+        "txcode": "GetFewAppConf_sm4"
+      }
+    ]
+  },
+  "compression": {
+    "enable": true,
+    "method": "deflate"
+  }
+},
+
+"flow_control": {
+  "location": {
+    "北京": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "天津": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "上海": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "重庆": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "河北": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "山西": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "辽宁": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "吉林": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "黑龙江": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "江苏": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "浙江": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "安徽": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "福建": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "江西": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "山东": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "河南": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "湖北": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "湖南": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "广东": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "海南": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "四川": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "贵州": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "云南": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "陕西": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "甘肃": {
+      "range": 1,
+      "total": 10000,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "青海": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "内蒙古": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "广西": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "西藏": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "宁夏": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "新疆": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "台湾": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "香港": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "澳门": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    },
+    "未知": {
+      "range": 1,
+      "total": 1,
+      "open": true,
+      "msg_frequency": 1
+    }
+  },
+  "run": true,
+  "whole_country": {
+    "base_number": "0.9",
+    "operand": "0.01",
+    "offset": "70"
+  }
+}
+
+
+}

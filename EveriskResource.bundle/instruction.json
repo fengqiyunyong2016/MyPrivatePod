@@ -1,0 +1,27 @@
+{
+    "1000": {
+        "1001":{
+            "instruction":{
+                "action":"2001",
+                "title":"root弹窗",
+                "message":"检测到root，你root干啥"
+            }
+        },
+        "1003":{
+            "instruction":{
+                "action":"2003",
+                "title":"inject",
+                "message":"检测到inject，你inject干啥"
+            }
+        },
+        "1004":{
+            "instruction":{
+                "action":"2003",
+                "title":"你在调试",
+                "message":"你为什么要调试??"
+            }
+            
+        }
+  }
+    
+}
