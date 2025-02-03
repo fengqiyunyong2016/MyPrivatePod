@@ -1,6 +1,6 @@
 {
   "name": "MyPrivatePod",
-  "version": "1",
+  "version": "0.1.0",
   "summary": "MyPrivatePod iOS SDK",
   "description": "iOS library for Bugly Service. Sign up for a service at https://bugly.tds.qq.com.",
   "homepage": "http://bugly.tds.qq.com/",
@@ -13,10 +13,11 @@
   },
   "source": {
     "git": "https://github.com/fengqiyunyong2016/MyPrivatePod.git",
-    "tag": "1"
+    "tag": "0.1.0"
   },
+  "requires_arc": true,
   "platforms": {
-    "ios": "10.0"
+    "ios": "12.0"
   },
   "vendored_frameworks": "RiskManage.framework",
   "resources": [
@@ -25,5 +26,9 @@
   "libraries": [
     "z",
     "c++"
-  ]
+  ],
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "arm64",
+    "skip_validation": true
+  }
 }
